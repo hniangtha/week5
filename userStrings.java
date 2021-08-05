@@ -8,7 +8,7 @@ public class userStrings {
     public static void main(String[] arg) {
 
         try {
-            String file = "/Users/hniangthluai/Documents/userStrings";
+            String file = "/Users/hniangthluai/Documents/userStrings.txt";
             BufferedWriter bw = new BufferedWriter(new FileWriter(file));
             PrintWriter pw = new PrintWriter(bw);
 
